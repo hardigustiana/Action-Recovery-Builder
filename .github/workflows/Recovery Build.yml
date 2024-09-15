@@ -14,7 +14,7 @@ on:
         - 7.1
         - 6.0
         required: true
-        default: 12.1
+        default: 14
       DEVICE_TREE_URL:
         description: Device Tree URL
         required: true
@@ -22,7 +22,7 @@ on:
       DEVICE_TREE_BRANCH:
         description: Device Tree Branch
         required: true
-        default: android-12.1
+        default: android-14
       DEVICE_PATH:
         description: Path the device tree should be synced to, relative to source root
         required: true
